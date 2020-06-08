@@ -28,4 +28,12 @@ public abstract class AerialVehicle implements AerialVehicleService{
         readyToFly = true ;
         sumOfHoursFromLastRepair = 0 ;
     }
+
+    public void setMission(Mission mission) {
+        this.mission = mission;
+    }
+
+    public void setHoursOfFlightSinceLastRepair(int hours){
+        sumOfHoursFromLastRepair = hours ;
+    }
 }

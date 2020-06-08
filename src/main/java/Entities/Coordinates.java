@@ -7,7 +7,10 @@ public class Coordinates {
         this.longitude = longitude;
         this.latitude = latitude;
     }
-
+    public Coordinates(Coordinates coordinates) {
+        this.longitude = coordinates.longitude;
+        this.latitude = coordinates.latitude;
+    }
     Double latitude;
 
     public Double getLatitude() {

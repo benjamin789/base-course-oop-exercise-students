@@ -13,7 +13,7 @@ public class Kochav extends HermesVehicle implements AerialIntelligenceVehicle, 
     private String sensorType;
     private String cameraType;
 
-    public Kochav(int NUM_Missiles, String missileType, String sensorType, String cameraType, String pilotName, Mission mission, int sumOfHoursFromLastRepair, boolean readyToFly){
+    public Kochav(int NUM_Missiles, String missileType, String cameraType, String sensorType, String pilotName, Mission mission, int sumOfHoursFromLastRepair, boolean readyToFly){
         this.NUM_Missiles = NUM_Missiles ;
         this.missileType = missileType ;
         this.sensorType = sensorType ;

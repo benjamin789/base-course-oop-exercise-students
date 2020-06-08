@@ -8,7 +8,7 @@ import Missions.MissionTypeException;
 public abstract class AerialVehicle implements AerialVehicleService{
     protected String pilotName;
     protected Mission mission;
-    protected float sumOfHoursFromLastRepair;
+    protected int sumOfHoursFromLastRepair;
     protected boolean readyToFly;
 
     @Override
@@ -35,5 +35,9 @@ public abstract class AerialVehicle implements AerialVehicleService{
 
     public void setHoursOfFlightSinceLastRepair(int hours){
         sumOfHoursFromLastRepair = hours ;
+    }
+
+    public int getHoursOfFlightSinceLastRepair(){
+        return sumOfHoursFromLastRepair ;
     }
 }

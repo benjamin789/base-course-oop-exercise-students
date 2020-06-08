@@ -13,6 +13,6 @@ public class BdaMission extends Mission implements  MissionService{
 
     @Override
     public String toString() {
-        return "taking pictures of " + objective ;
+        return objective ;
     }
 }

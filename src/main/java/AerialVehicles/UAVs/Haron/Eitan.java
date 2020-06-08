@@ -24,7 +24,7 @@ public class Eitan extends HaronVehicle implements AerialAttackVehicle, AerialIn
 
     @Override
     public String attack() {
-        return pilotName + ": " + this.getClass().getSimpleName() + " Attacking " + mission.toString() + " with: " + this.missileType ;
+        return pilotName + ": " + this.getClass().getSimpleName() + " Attacking " + mission.toString() + " with: " + this.missileType + "X" + NUM_Missiles;
     }
 
     @Override

@@ -26,13 +26,13 @@ public class Shoval extends HaronVehicle implements AerialBdaVehicle, AerialInte
 
     @Override
     public String attack() {
-        return pilotName + ": " + this.getClass().getSimpleName() + " Attacking " + mission.toString() + " with: " + this.missileType ;
+        return pilotName + ": " + this.getClass().getSimpleName() + " Attacking " + mission.toString() + " with: " + this.missileType + "X" + NUM_Missiles ;
 
     }
 
     @Override
     public String preformBda() {
-        return pilotName + ": " + this.getClass().getSimpleName() + "taking pictures of" + mission.toString() + "with: " + this.cameraType ;
+        return pilotName + ": " + this.getClass().getSimpleName() + " taking pictures of " + mission.toString() + " with: " + this.cameraType + " camera" ;
     }
 
     @Override

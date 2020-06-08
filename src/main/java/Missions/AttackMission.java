@@ -13,6 +13,6 @@ public class AttackMission extends Mission implements  MissionService{
         this.coordinates = new Coordinates(coordinates) ;
     }
     public String toString(){
-        return "Attacking " + target;
+        return target;
     }
 }

@@ -22,7 +22,7 @@ public class Zik extends HermesVehicle implements AerialIntelligenceVehicle, Aer
 
     @Override
     public String preformBda() {
-        return pilotName + ": " + this.getClass().getSimpleName() + "taking pictures of" + mission.toString() + "with: " + this.cameraType ;
+        return pilotName + ": " + this.getClass().getSimpleName() + " taking pictures of " + mission.toString() + " with: " + this.cameraType + " camera" ;
     }
 
     @Override

@@ -24,7 +24,7 @@ public class F15 extends FighterJetsVehicle implements AerialAttackVehicle, Aeri
 
     @Override
     public String attack() {
-        return pilotName + ": " + this.getClass().getSimpleName() + " Attacking " + mission.toString() + " with: " + missileType ;
+        return pilotName + ": " + this.getClass().getSimpleName() + " Attacking " + mission.toString() + " with: " + missileType + "X" + NUM_Missiles;
     }
 
     @Override

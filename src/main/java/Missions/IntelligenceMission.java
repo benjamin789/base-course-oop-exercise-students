@@ -13,6 +13,6 @@ public class IntelligenceMission extends Mission implements  MissionService{
 
     @Override
     public String toString() {
-        return "Collecting Data in " + region;
+        return region;
     }
 }
